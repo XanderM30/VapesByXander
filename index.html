@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="theme-color" content="#09070f">
+        <meta name="description"
+            content="Vapes By Xander: información sobre productos y sus especificaciones.">
+
+        <title>Vapes By Dav And Xander | Catálogo informativo</title>
+
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/script.js" defer></script>
+    </head>
+
+    <body>
+
+        <!-- AVISO PARA ADULTOS -->
+        <div class="aviso-edad">
+            <p>
+                <strong>+18</strong>
+                Sitio destinado exclusivamente para promocionar.
+            </p>
+        </div>
+
+        <!-- ENCABEZADO -->
+        <header class="encabezado" id="inicio">
+            <nav class="navegacion contenedor"
+                aria-label="Navegación principal">
+
+                <a class="logo" href="#inicio"
+                    aria-label="Vapes By Dav And Xander, inicio">
+                    <span class="logo-icono">D-X</span>
+                    <span>VAPES <strong>BY DAV AND XANDER</strong></span>
+                </a>
+
+                <button
+                    class="menu-toggle"
+                    id="menuToggle"
+                    type="button"
+                    aria-label="Abrir menú"
+                    aria-expanded="false"
+                    aria-controls="menuPrincipal">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="menu" id="menuPrincipal">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <main>
+
+            <!-- PORTADA -->
+            <section class="hero">
+                <div class="hero-luz hero-luz-uno"></div>
+                <div class="hero-luz hero-luz-dos"></div>
+
+                <div class="contenedor hero-contenido">
+
+                    <h1>
+                        TU ESTILO.<br>
+                        <span>TU ELECCIÓN.</span>
+                    </h1>
+
+                    <a class="boton boton-principal" href="#catalogo">
+                        Explorar
+                        <span aria-hidden="true">↘</span>
+                    </a>
+
+                </div>
+
+                <div class="hero-decoracion" aria-hidden="true">
+                    <span class="circulo circulo-uno"></span>
+                    <span class="circulo circulo-dos"></span>
+                    <span class="hero-x">X</span>
+                </div>
+            </section>
+
+            <!-- NOSOTROS -->
+            <section class="seccion nosotros" id="nosotros">
+                <div class="contenedor nosotros-grid">
+
+                    <div>
+                        <p class="etiqueta">01 / NUESTRA IDENTIDAD</p>
+                        <h2>Conoce <span>la marca.</span></h2>
+                    </div>
+
+                    <div class="nosotros-texto">
+                        <p class="hero-descripcion">
+                            En Vapes By Dav And Xander, nuestra misión es
+                            ofrecer calidad a
+                            precios competitivos, brindando una experiencia de
+                            compra
+                            accesible y confiable. Nos esforzamos por ofrecer
+                            productos
+                            que destaquen por su calidad, variedad y precio,
+                            manteniendo
+                            siempre el compromiso de brindar una atención
+                            excelente
+                            a nuestros clientes.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- CATÁLOGO INFORMATIVO -->
+
+            <section class="catalogo" id="catalogo">
+                <div class="contenedor">
+                    <p class="etiqueta">02 / NUESTRO CATÁLOGO</p>
+                    <h2>Modelos disponiles</h2>
+                    <p class="descripcion-seccion">
+                        Explora los modelos y consulta su información.
+                    </p>
+
+                    <div class="productos-grid">
+
+                        <!-- Producto RAMA -->
+                        <article class="producto-card">
+                            <div class="producto-imagen">
+                                <img
+                                    src="img/rama-16000-sour-blue-razz-box__51469.jpg"
+                                    alt="Dispositivo RAMA"
+                                    loading="lazy">
+                            </div>
+
+                            <div class="producto-info">
+                                <span
+                                    class="producto-etiqueta">RECARGABLE</span>
+                                <h3>RAMA</h3>
+                                <p>
+                                    Consulta la información y las
+                                    características
+                                    del modelo.
+                                </p>
+
+                                <button
+                                    type="button"
+                                    class="boton-producto"
+                                    data-producto="rama">
+                                    Ver información
+                                </button>
+                            </div>
+                        </article>
+
+                        <!-- Producto Max-Air 5000 -->
+                        <article class="producto-card">
+                            <div class="producto-imagen">
+                                <img
+                                    src="img/PHOTO-2023-03-29-21-27-293_1025x798_3eb158c3-06bf-4949-a9c3-fd4567148b8f.webp"
+                                    alt="Dispositivo Max-Air 5000"
+                                    loading="lazy">
+                            </div>
+
+                            <div class="producto-info">
+                                <span
+                                    class="producto-etiqueta">RECARGABLE</span>
+                                <h3>Max-Air 5000</h3>
+                                <p>
+                                    Consulta la información y las
+                                    características
+                                    del modelo.
+                                </p>
+
+                                <button
+                                    type="button"
+                                    class="boton-producto"
+                                    data-producto="maxair">
+                                    Ver información
+                                </button>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- AVISO INFORMATIVO -->
+            <section class="seccion advertencia">
+                <div class="contenedor advertencia-contenido">
+                    <span class="advertencia-icono" aria-hidden="true">!</span>
+                    <div>
+                        <p class="etiqueta">INFORMACIÓN IMPORTANTE</p>
+                        <h2>Conoce los riesgos.</h2>
+                        <p>
+                            Los vapeadores pueden contener nicotina, una
+                            sustancia
+                            adictiva, y su aerosol puede incluir sustancias
+                            dañinas.
+                            No se consideran inocuos. Esta página no ofrece
+                            recomendaciones médicas ni afirma que su uso sea
+                            seguro.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACTO -->
+            <section class="seccion contacto" id="contacto">
+                <div class="contenedor contacto-grid">
+
+                    <div>
+                        <p class="etiqueta">03 / CONTACTO</p>
+                        <h2>Conecta con <span>Xander.</span></h2>
+                        <p>
+                            Consulta información general sobre el contenido
+                            de este sitio.
+                        </p>
+                    </div>
+
+                    <div class="contacto-panel">
+                        <h3>Canales oficiales</h3>
+                        <p>
+                            Los enlaces se habilitarán cuando se definan
+                            las cuentas oficiales de la marca.
+                        </p>
+
+                        <div class="redes-sociales">
+                            <a href="#contacto"
+                                aria-label="Instagram, enlace pendiente"
+                                class="red-social"
+                                aria-disabled="true">IG</a>
+
+                            <a href="#contacto"
+                                aria-label="TikTok, enlace pendiente"
+                                class="red-social"
+                                aria-disabled="true">TK</a>
+
+                            <a href="#contacto"
+                                aria-label="Correo electrónico, por configurar"
+                                class="red-social"
+                                aria-disabled="true">@</a>
+                        </div>
+
+                        <p class="contacto-nota">
+                            Redes y correo pendientes de configuración.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+        <!-- PIE DE PÁGINA -->
+        <footer class="pie-pagina">
+            <div class="contenedor pie-contenido">
+
+                <a class="logo" href="#inicio">
+                    <span class="logo-icono">X</span>
+                    <span>VAPES <strong>BY DAV AND XANDERs</strong></span>
+                </a>
+
+                <p>© <span id="anio"></span> Vapes By Dav And Xander.</p>
+
+                <a href="#inicio" class="volver-arriba">
+                    Volver arriba ↑
+                </a>
+
+            </div>
+
+            
+<div class="contenedor pie-legal">
+    <p>
+        © <span id="anio"></span> Vapes By Dav And Xander. Todos los
+        derechos reservados. Calidad, compromiso y atención al cliente
+        son parte de nuestra identidad. El uso de nuestros productos
+        debe realizarse de acuerdo con la normativa aplicable.
+    </p>
+</div>
+
+            </div>
+        </footer>
+
+    </body>
+</html>
